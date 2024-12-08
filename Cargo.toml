@@ -9,6 +9,10 @@ path = "src/day1.rs"
 [[bin]]
 name = "2"
 path = "src/day2.rs"
+[[bin]]
+name = "3"
+path = "src/day3.rs"
 
 [dependencies]
 derive_more = { version = "1.0.0", features = ["debug", "display", "from"] }
+regex = "1.11.1"
